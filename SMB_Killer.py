@@ -17,19 +17,6 @@ MAGENTA = Fore.MAGENTA
 BLUE = Fore.BLUE
 RESET = Fore.RESET
 
-
-
-print(RED+    " _____ _____  _____     ________  _________     _   _______ _      _      ___________ ")
-print(YELLOW+ "|  _  |  __ \/  __ \   /  ___|  \/  || ___ \   | | / /_   _| |    | |    |  ___| ___ \\")
-print(GREEN+  "| | | | |  \/| /  \/   \ `--.| .  . || |_/ /   | |/ /  | | | |    | |    | |__ | |_/ /")
-print(MAGENTA+"| | | | | __ | |        `--. \ |\/| || ___ \   |    \  | | | |    | |    |  __||    / ")
-print(BLUE+   "\ \_/ / |_\ \| \__/\   /\__/ / |  | || |_/ /   | |\  \_| |_| |____| |____| |___| |\ \ ")
-print(RED+    " \___/ \____/ \____/   \____/\_|  |_/\____/    \_| \_/\___/\_____/\_____/\____/\_| \_|")
-print(YELLOW+ "                                                                                      "+RESET)
-                                                                                      
-
-
-
 parser = argparse.ArgumentParser(description="SMB Killer",
 formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
