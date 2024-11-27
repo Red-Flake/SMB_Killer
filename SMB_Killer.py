@@ -4,11 +4,7 @@ import os
 import argparse
 import sys
 import time
-try:
-    from colorama import Fore
-except ImportError:
-    os.system("pip3 install colorama")
-    os.system("pip install colorama")
+from colorama import Fore
 
 RED = Fore.RED
 YELLOW = Fore.YELLOW
@@ -148,5 +144,3 @@ if args.All == True:
 	url()
 	scf()
 	ALL()
-
-#Thank you dze64 for all the help while making this, he made it much better but I wanted / needed to learn some python, had a lot of fun making this and learning
